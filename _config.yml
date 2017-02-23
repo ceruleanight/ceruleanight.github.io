@@ -13,7 +13,6 @@ gems:
 - jekyll-feed
 - jekyll-paginate
 - jekyll-sitemap
-#- jekyll-admin
 exclude:
 - Gemfile
 - Gemfile.lock
