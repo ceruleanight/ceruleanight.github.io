@@ -1,1 +1,19 @@
-theme: jekyll-theme-cayman
+title: Cosmetify
+email: cosmetify@live.com
+encoding: utf-8
+description: Nothing too special yet
+url: "cosmetify.net"
+twitter_username: cosmetify
+github_username:  cosmetify
+timezone: America/New_York
+paginate: 5
+
+# Build settings
+gems:
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+#- jekyll-admin
+exclude:
+- Gemfile
+- Gemfile.lock
