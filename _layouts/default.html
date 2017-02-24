@@ -1,20 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Cosmetify</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://cosmetify.net/css/cosmetify.css" type="text/css">
-	<link rel="stylesheet" href="https://cosmetify.net/css/jekyll-github.css" type="text/css">
+	{% include head.html %}
 </head>
 
 <body>
 	<section class="header">
-		<h1>Cosmetify</h1>
-		<h2>Theme under much construction</h2>
-		<nav>
-			{% include nav.html %}
-		</nav>
+		{% include header.html %}
 	</section>
+
 	<section class="content">
 		{% for post in paginator.posts %}
 		<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
@@ -40,6 +34,7 @@
 			{% endif %}
 		</section>
 	</section>
+
 	<section class="footer">
 		<hr>
 		{% include social.html %}
