@@ -6,6 +6,7 @@
 }
 
 /* Main */
+
 a {
 	color: #00AEFF;
 	text-decoration: none;
@@ -141,7 +142,7 @@ p code {
 	padding: 10px;
 	display: block;
 	border-style: solid;
-	border-width: 1.5px;
+	border-width: 1px;
 	border-radius: 4px;
 	border-color: #d2d2d2;
 	background-color: #eee;
@@ -149,6 +150,52 @@ p code {
 	tab-size: 4;
 	-o-tab-size: 4;
 	-moz-tab-size: 4;
+}
+.project {
+	padding: 10px;
+	margin-left: 25px;
+	display: inline-table;
+	width: 275px;
+	height: 225px;
+	border: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #ddd;
+	cursor: pointer;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.project h2 {
+	margin-bottom: 15px;
+	text-align: center;
+	color: #00AEFF;
+	font-size: 18px;
+}
+.project h3 {
+	padding: 5px;
+	text-align: center;
+	color: #555;
+	font-size: 12px;
+}
+.project h4 {
+	margin: 0px;
+	text-align: center;
+	color: #aaa;
+	font-size: 75px;
+}
+.project:hover {
+	-moz-transform: scale(1.07);
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
+}
+.project img {
+	display: block;
+	margin: 0 auto;
+}
+.project span {
+	display: table-cell;
+	vertical-align: middle;
 }
 
 /* Social Media Stuff */
