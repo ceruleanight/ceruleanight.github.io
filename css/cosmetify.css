@@ -163,6 +163,7 @@ p code {
 	border-width: 2px;
 	border-color: #ddd;
 	cursor: pointer;
+	vertical-align: top;
 	-moz-transition: all 0.3s;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
