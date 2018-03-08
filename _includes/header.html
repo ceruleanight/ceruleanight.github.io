@@ -1,6 +1,6 @@
 <h1>Cosmetify</h1>
 <h2>A barebone website</h2>
 <nav>
-	<input class="button" value="Home" type="button" onclick="location.href='{{ prepend: site.baseurl | prepend: site.url }}'">
-	<input class="button" value="Projects" type="button" onclick="location.href='{{ prepend: site.baseurl | prepend: site.url }}/projects'">
+	<a href="{{ prepend: site.baseurl | prepend: site.url }}"><input class="button" value="Home" type="button"></a>
+	<a href="{{ prepend: site.baseurl | prepend: site.url }}/projects"><input class="button" value="Projects" type="button"></a>
 </nav>
