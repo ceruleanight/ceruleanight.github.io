@@ -21,6 +21,9 @@ a:visited {
 	color: #0085C3;
 	text-decoration: none;
 }
+nav a, nav a:hover, nav a:active {
+	text-decoration: none;
+}
 blockquote {
 	color: #CFCFCF;
 	border-left: 2px solid #CFCFCF;
@@ -96,7 +99,7 @@ p code {
 	transition: all ease 0.5s;
 }
 .button:hover {
-	box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+	/*box-shadow: 0 5px 15px rgba(145, 92, 182, .4);*/
 	background-color: #fff;
 	color: #000;
 }
