@@ -20,6 +20,9 @@ a:hover {
 nav a, nav a:hover, nav a:active {
 	text-decoration: none;
 }
+sub {
+	color: #aaa;
+}
 blockquote {
 	color: #CFCFCF;
 	border-left: 2px solid #CFCFCF;
@@ -115,8 +118,14 @@ p code {
 	margin-bottom: 25px;
 }
 .content h3 {
-	color: #222;
-	margin: 10px;
+	color: #ddd;
+}
+.content h4 {
+	color: #AC73FF;
+}
+.mixes img {
+	margin: 5px;
+	border-radius: 5px;
 }
 .footer {
 	padding-top: 10px;
