@@ -212,6 +212,9 @@ p code {
 	display: table-cell;
 	vertical-align: middle;
 }
+.mixes {
+	text-align: center;
+}
 
 /* Social Media Stuff */
 .social {
