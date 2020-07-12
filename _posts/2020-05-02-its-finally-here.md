@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "It's Finally Here"
-date:   2020-03-28 21:50:54 -0500
+date:   2020-05-02 22:37:00 -0500
 categories: post
 ---
 This project I've been working on over the past month or so is finally here. Though it's not necessarily complete, since it's an ongoing thing.
