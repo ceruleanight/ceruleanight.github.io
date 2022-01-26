@@ -1,8 +1,8 @@
 /* Font */
 
 @font-face {
-    font-family: "Sinkin Sans 300 Light";
-    src: url(https://raw.githubusercontent.com/cosmetify/cosmetify.github.io/master/font/SinkinSans-300Light.otf);
+	font-family: "Sinkin Sans 300 Light";
+	src: url(https://raw.githubusercontent.com/cosmetify/cosmetify.github.io/master/font/SinkinSans-300Light.otf);
 }
 
 /* Main */
@@ -11,26 +11,33 @@ a {
 	color: #AC73FF;
 	text-decoration: none;
 }
+
 a:active {
 	color: #AC73FF;
 }
+
 a:hover {
 	color: #9668db;
 }
+
 nav a, nav a:hover, nav a:active {
 	text-decoration: none;
 }
+
 sub {
 	color: #aaa;
 }
+
 blockquote {
 	color: #CFCFCF;
 	border-left: 2px solid #CFCFCF;
 	padding: 0 1rem;
 }
+
 blockquote p {
 	color: #CFCFCF;
 }
+
 body {
 	font-family: "Sinkin Sans 300 Light";
 	font-size: 14px;
@@ -38,14 +45,18 @@ body {
 	margin: 0;
 	background: #333;
 }
+
 hr {
 	background-color: #AC73FF;
 	height: 2px;
 	border: 0;
+	opacity: 1;
 }
+
 nav {
 	padding: 10px;
 }
+
 table {
 	border-collapse: collapse;
 	display: block;
@@ -54,20 +65,24 @@ table {
 	word-break: keep-all;
 	color: #555;
 }
+
 th {
 	border: 2px solid #CFCFCF;
 	padding: 10px;
 	text-align: center;
 	font-weight: bold;
 }
+
 td {
 	border: 2px solid #CFCFCF;
 	padding: 10px;
 }
+
 p {
 	color: #ccc;
 	line-height: 22px;
 }
+
 p code {
 	color: #5C5C5C;
 	background-color: #efefef;
@@ -89,44 +104,50 @@ p code {
 	border-color: #fff;
 	border-style: solid;
 	border-radius: 8px;
-	width: 80px;
+	width: 90px;
 	height: 35px;
-	cursor: pointer;
 	-webkit-transition: all ease 0.5s;
 	-moz-transition: all ease 0.5s;
 	-o-transition: all ease 0.5s;
 	-ms-transition: all ease 0.5s;
 	transition: all ease 0.5s;
 }
+
 .button:hover {
 	/*box-shadow: 0 5px 15px rgba(145, 92, 182, .4);*/
 	background-color: #fff;
 	color: #000;
 }
+
 .content {
 	width: 1000px;
 	margin: 0 auto;
 }
+
 .content h1 {
 	font-size: 35px;
 	color: #AC73FF;
 	margin-bottom: 5px;
 }
+
 .content h2 {
 	font-size: 10px;
 	color: #818181;
-	margin-bottom: 25px;
 }
+
 .content h3 {
 	color: #ddd;
 }
+
 .content h4 {
 	color: #AC73FF;
+	margin-top: 15px;
 }
+
 .mixes img {
 	margin: 5px;
-	border-radius: 5px;
 }
+
 .footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -134,6 +155,7 @@ p code {
 	width: 1000px;
 	margin: 0 auto;
 }
+
 .header {
 	padding: 25px;
 	height: 250px;
@@ -141,17 +163,21 @@ p code {
 	text-align: center;
 	background-color: #1089FF;
 	background-image: linear-gradient(55deg, #ff2ae8, #00B7FF);
+	margin-bottom: 30px;
 }
+
 .header h1 {
 	font-size: 52px;
 	margin-top: 0;
 }
+
 .header h2 {
 	margin-bottom: 30px;
 	font-weight: normal;
 	opacity: 0.7;
 	font-size: 25px;
 }
+
 .highlight {
 	padding: 10px;
 	display: block;
@@ -165,12 +191,12 @@ p code {
 	-o-tab-size: 4;
 	-moz-tab-size: 4;
 }
+
 .project {
 	padding: 10px;
 	margin-left: 25px;
 	display: inline-table;
 	width: 275px;
-	height: 225px;
 	border: solid;
 	border-radius: 5px;
 	border-width: 2px;
@@ -181,39 +207,49 @@ p code {
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
 .project h2 {
-	margin-bottom: 15px;
+	margin-bottom: 0px;
 	text-align: center;
 	color: #AC73FF;
 	font-size: 18px;
 }
+
 .project h3 {
 	padding: 5px;
 	text-align: center;
 	color: #aaa;
 	font-size: 12px;
 }
+
 .project h4 {
 	margin: 0px;
 	text-align: center;
 	color: #bbb;
-	font-size: 75px;
+	font-size: 82px;
 }
+
 .project:hover {
 	-moz-transform: scale(1.07);
 	-webkit-transform: scale(1.07);
 	transform: scale(1.07);
 }
+
 .project img {
 	display: block;
 	margin: 0 auto;
 }
-.project span {
-	display: table-cell;
-	vertical-align: middle;
+
+.project tbody, .project td, .project tfoot, .project th, .project thead, .project tr {
+	border: none;
 }
+
 .mixes {
 	text-align: center;
+}
+
+.img {
+	height: 120px;
 }
 
 /* Social Media Stuff */
@@ -226,20 +262,25 @@ p code {
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
+
 .social:hover {
 	-moz-transform: scale(1.2);
 	-webkit-transform: scale(1.2);
 	transform: scale(1.2);
 }
+
 .facebook {
 	background-position: 0px 0px;
 }
+
 .twitter {
 	background-position: -35px 0px;
 }
+
 .youtube {
 	background-position: -70px 0px;
 }
+
 .github {
 	background-position: -105px 0px;
 }
