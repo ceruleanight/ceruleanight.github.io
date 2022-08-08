@@ -9,10 +9,10 @@
 		{% include header.html %}
 	</section>
 
-	<section class="content">
+	<section class="content mix">
 		<h1>{{ page.title }}</h1>
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ page.yt }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
-		<sub>You can also find this mix on <a href="{{ page.mc }}">Mixcloud</a>{% if page.audius %}, <a href="{{ page.audius }}">Audius</a>{% endif %}{% if page.lbry %}, <a href="{{ page.lbry }}">lbry</a>{% endif %}{% if page.audiomack %}, <a href="{{ page.audiomack }}">Audiomack</a>{% endif %}{% if page.hearthisat %}, <a href="{{ page.hearthisat }}">hearthis.at</a>{% endif %}{% if page.nippy %}, <a href="{{ page.nippy }}">nippyspace</a>{% endif %}</sub>
+		<sub>You can also find this mix on <a href="{{ page.mc }}">Mixcloud</a>{% if page.audius %}, <a href="{{ page.audius }}">Audius</a>{% endif %}{% if page.lbry %}, <a href="{{ page.lbry }}">Odysee</a>{% endif %}{% if page.audiomack %}, <a href="{{ page.audiomack }}">Audiomack</a>{% endif %}{% if page.hearthisat %}, <a href="{{ page.hearthisat }}">hearthis.at</a>{% endif %}{% if page.nippy %}, <a href="{{ page.nippy }}">nippyspace</a>{% endif %}</sub>
 		{{ content }}
 	</section>
 

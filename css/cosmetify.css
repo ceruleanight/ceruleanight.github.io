@@ -8,12 +8,12 @@
 /* Main */
 
 a {
-	color: #AC73FF;
+	color: #7d72f4;
 	text-decoration: none;
 }
 
 a:active {
-	color: #AC73FF;
+	color: #7d72f4;
 }
 
 a:hover {
@@ -47,7 +47,7 @@ body {
 }
 
 hr {
-	background-color: #AC73FF;
+	background-color: #7d72f4;
 	height: 2px;
 	border: 0;
 	opacity: 1;
@@ -126,7 +126,7 @@ p code {
 
 .content h1 {
 	font-size: 35px;
-	color: #AC73FF;
+	color: #7d72f4;
 	margin-bottom: 5px;
 }
 
@@ -140,8 +140,17 @@ p code {
 }
 
 .content h4 {
-	color: #AC73FF;
+	color: #7d72f4;
 	margin-top: 15px;
+}
+
+.mix .highlight {
+	border: none !important;
+	padding: 5px !important;
+	background-color: #3c3c3c;
+	color: #ddd;
+	font-size: 15px;
+	margin-bottom: 0px !important;
 }
 
 .mixes img {
@@ -211,7 +220,7 @@ p code {
 .project h2 {
 	margin-bottom: 0px;
 	text-align: center;
-	color: #AC73FF;
+	color: #7d72f4;
 	font-size: 18px;
 }
 
@@ -269,18 +278,14 @@ p code {
 	transform: scale(1.2);
 }
 
-.facebook {
+.twitter {
 	background-position: 0px 0px;
 }
 
-.twitter {
+.youtube {
 	background-position: -35px 0px;
 }
 
-.youtube {
-	background-position: -70px 0px;
-}
-
 .github {
-	background-position: -105px 0px;
+	background-position: -70px 0px;
 }
