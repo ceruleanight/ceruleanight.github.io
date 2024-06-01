@@ -1,18 +1,4 @@
 title: Cerulean
 email: contact@ceruleanight.com
 encoding: utf-8
-description: Hi
 url: https://ceruleanight.com
-twitter_username: ceruleanights
-github_username: ceruleanight
-
-paginate: 5
-
-# Build settings
-gems:
-- jekyll-feed
-- jekyll-paginate
-- jekyll-sitemap
-exclude:
-- Gemfile
-- Gemfile.lock

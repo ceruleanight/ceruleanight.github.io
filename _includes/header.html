@@ -1,7 +1,39 @@
-<h1>Cerulean</h1>
-<h2>A blog, sort of</h2>
-<nav>
-	<a href="{{ site.url }}/"><input class="button" value="Home" type="button"></a>
-	<a href="{{ site.url }}/projects"><input class="button" value="Projects" type="button"></a>
-	<a href="{{ site.url }}/mixes"><input class="button" value="Mixes" type="button"></a>
-</nav>
+<header>
+	<div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-3 border-bottom">
+		<a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
+			<span class="fs-4">Cerulean</span>
+		</a>
+  
+		<nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+			<div class="dropdown me-3" style="margin-top: 1%">
+				<button class="btn btn-secondary dropdown-toggle" type="button" id="bd-theme" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+					<i class="theme-icon-active"></i>
+				</button>
+				<ul class="dropdown-menu">
+					<li>
+						<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+							<i class="bi bi-brightness-high-fill me-2"></i>
+							Light
+						</button>
+					</li>
+					<li>
+						<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+							<i class="bi bi-moon-stars-fill me-2"></i>
+							Dark
+						</button>
+					</li>
+					<li>
+						<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="auto">
+							<i class="bi bi-circle-half me-2"></i>
+							Auto
+						</button>
+					</li>
+				</ul>
+			</div>
+
+			<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{{site.url}}/mixes">Mixes</a>
+		  	<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{{site.url}}/charting">Charting</a>
+		  	<a class="me-3 py-2 link-body-emphasis text-decoration-none" href="{{site.url}}/hyphenator">Hyphenator</a>
+		</nav>
+	  </div>
+</header>
