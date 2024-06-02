@@ -1,3 +1,4 @@
 ---
 layout: charting
+title: Charting
 ---
