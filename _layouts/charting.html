@@ -24,7 +24,7 @@
 						<h4 class="my-0 fw-normal">Standard</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">$5<small class="text-body-secondary fw-light">/minute</small></h1>
+						<h1 class="card-title pricing-card-title">{% if page.discount == true %}<del class="text-secondary">${{ page.standard }}</del> ${{ page.standard | minus: page.damount }}{% else %}${{ page.standard }}{% endif %}<small class="text-body-secondary fw-light">/minute</small></h1>
 						<p class="mb-1">Standard rate for studio songs</p>
 						<p><i>* If the song requires little to no tempo mapping, I'll subtract a dollar per minute</i></p>
 						<a href="//discord.com/users/97774516968648704" role="button" class="w-100 btn btn-lg btn-primary">Contact me</a>
@@ -37,7 +37,7 @@
 						<h4 class="my-0 fw-normal">Live Recordings</h4>
 					</div>
 					<div class="card-body">
-						<h1 class="card-title pricing-card-title">$6<small class="text-body-secondary fw-light">/minute</small></h1>
+						<h1 class="card-title pricing-card-title">{% if page.discount == true %}<del class="text-secondary">${{ page.lr }}</del> ${{ page.lr | minus: page.damount }}{% else %}${{ page.lr }}{% endif %}<small class="text-body-secondary fw-light">/minute</small></h1>
 						<p class="mb-1">Live recordings require extensive tempo mapping</p>
 						<p><i>* In some cases, this can also include studio songs that are not played to a metronome</i></p>
 						<a href="//discord.com/users/97774516968648704" role="button" class="w-100 btn btn-lg btn-outline-primary">Contact me</a>
@@ -87,7 +87,7 @@
 				<div class="list-group-item list-group-item-action">
 					<div class="d-flex w-100 justify-content-between">
 						<h5 class="mb-1">Lower Difficulties</h5>
-						<small>$2 per difficulty or $5 for all three</small>
+						<small>{% if page.discount == true %}<del class="text-secondary">${{ page.ldper }}</del> ${{ page.ldper | minus: page.damountper }}{% else %}${{ page.ldper }}{% endif %} per difficulty or {% if page.discount == true %}<del class="text-secondary">${{ page.ldtotal }}</del> ${{ page.ldtotal | minus: page.damount }}{% else %}${{ page.ldtotal }}{% endif %} for all three</small>
 					</div>
 				 	<p class="mb-1">Want to play Hard, Medium, or Easy? Include lower difficulties charted by hand</p>
 					
@@ -95,14 +95,14 @@
 				<div class="list-group-item list-group-item-action">
 					<div class="d-flex w-100 justify-content-between">
 						<h5 class="mb-1">Lyrics</h5>
-						<small>$2 per minute</small>
+						<small>{% if page.discount == true %}<del class="text-secondary">${{ page.lyrics }}</del> ${{ page.lyrics | minus: page.damount }}{% else %}${{ page.lyrics }}{% endif %} per minute</small>
 					</div>
 					<p class="mb-1">Want to sing along? Include lyrics precisely synced per syllable</p>
 				</div>
 				<div class="list-group-item list-group-item-action">
 					<div class="d-flex w-100 justify-content-between">
 						<h5 class="mb-1">Music Video</h5>
-						<small>$2</small>
+						<small>{% if page.discount == true %}<del class="text-secondary">${{ page.mv }}</del> ${{ page.mv | minus: page.damount }}{% else %}${{ page.mv }}{% endif %}</small>
 					</div>
 					<p class="mb-1">Want to have an engaging background? Provide a music video for me to sync with the chart</p>
 				</div>
