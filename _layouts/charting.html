@@ -27,7 +27,11 @@
 						<h1 class="card-title pricing-card-title">{% if page.discount == true %}<del class="text-secondary">${{ page.standard }}</del> ${{ page.standard | minus: page.damount }}{% else %}${{ page.standard }}{% endif %}<small class="text-body-secondary fw-light">/minute</small></h1>
 						<p class="mb-1">Standard rate for studio songs</p>
 						<p><i>* If the song requires little to no tempo mapping, I'll subtract a dollar per minute</i></p>
-						<a href="//discord.com/users/97774516968648704" role="button" class="w-100 btn btn-lg btn-primary">Contact me</a>
+						<div class="d-flex">
+							<a href="//discord.com/users/97774516968648704" role="button" class="w-100 btn btn-lg btn-primary discord"><i class="bi bi-discord"></i> Contact me</a>
+							<a href="mailto:commission@ceruleanight.com" role="button" class="w-100 btn btn-lg btn-primary"><i class="bi bi-envelope-fill"></i> Email me</a>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -40,7 +44,11 @@
 						<h1 class="card-title pricing-card-title">{% if page.discount == true %}<del class="text-secondary">${{ page.lr }}</del> ${{ page.lr | minus: page.damount }}{% else %}${{ page.lr }}{% endif %}<small class="text-body-secondary fw-light">/minute</small></h1>
 						<p class="mb-1">Live recordings require extensive tempo mapping</p>
 						<p><i>* In some cases, this can also include studio songs that are not played to a metronome</i></p>
-						<a href="//discord.com/users/97774516968648704" role="button" class="w-100 btn btn-lg btn-outline-primary">Contact me</a>
+						<div class="d-flex">
+							<a href="//discord.com/users/97774516968648704" role="button" class="w-100 btn btn-lg btn-outline-primary discord-outline"><i class="bi bi-discord"></i> Contact me</a>
+							<a href="mailto:commission@ceruleanight.com" role="button" class="w-100 btn btn-lg btn-outline-primary"><i class="bi bi-envelope-fill"></i> Email me</a>
+						</div>
+						
 					</div>
 				</div>
 			</div>
@@ -123,7 +131,16 @@
 			<p>I first got into charting back in May 2023. Since then, I've learned a lot about the process and after a full year, I'm comfortable enough to start taking commissions. Playing drums has always been my favorite out of all the instruments that can be played. I have an Alesis Nitro Mesh kit, which is about the standard kit most people buy to play casually.</p>
 
 			<h2>The Process</h2>
-			<p>I start by downloading the audio in FLAC, if possible. I get the bpm of the song and add a count in as all RB songs do. Then the audio gets transcoded to Vorbis (.ogg) 256kbps for the best quality. From there, I start in MoonScraper and set the song sections. I use AI stems using demucs to help chart drums and make sure the song is properly tempo mapped. Then I place all the notes, do a quick run of lyrics (to be properly synced later) and convert to a REAPER project. I then add star power and activations, lower difficulties, and sync lyrics. After everything is done, I export as notes.mid and zip it up.</p>
+			<ol>
+				<li>The song is obtained in FLAC, if possible</li>
+				<li>The BPM is determined and a count in is added to the song, then it's transcoded to Vorbis (.ogg) 256kbps for the best quality</li>
+				<li>Starting in MoonScraper, all sections of the song are set</li>
+				<li>AI stems using demucs are utilized to help make sure the song is properly tempo mapped (and charted)</li>
+				<li>All expert notes are placed and lyrics are added (as a rough draft), then the .chart file is converted to a REAPER project file</li>
+				<li>Star power, activations, and lower difficulties are charted</li>
+				<li>Lyrics are synced syllable by syllable</li>
+				<li>Chart is exported as a .mid file, then zipped to be released</li>
+			</ol>
 		</div>
 
 		<div class="accordion">
@@ -131,9 +148,9 @@
 
 			<div class="accordion-item">
 				<h2 class="accordion-header">
-					<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#qa1" aria-expanded="true" aria-controls="qa1">How long will it take?</button>
+					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#qa1" aria-expanded="true" aria-controls="qa1">How long will it take?</button>
 				</h2>
-				<div id="qa1" class="accordion-collapse collapse show">
+				<div id="qa1" class="accordion-collapse collapse">
 					<div class="accordion-body">It varies greatly depending on how long the song is, how difficult it is, and how many other commissions I have. You will be notified when I start and given a very general timeframe based on the song.</div>
 				</div>
 			</div>
@@ -158,15 +175,15 @@
 					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#qa4" aria-expanded="false" aria-controls="qa4">Why use two different programs?</button>
 				</h2>
 				<div id="qa4" class="accordion-collapse collapse">
-					<div class="accordion-body">When starting, it's easier to visualize the chart using MS. REAPER offers more functionality, especially when it comes to things like lanes, solos, and disco flip. TLDR: They both have their strong points, so I get the best of both worlds.</div>
+					<div class="accordion-body">When starting, it's easier to visualize the chart using MS. REAPER offers more functionality, especially when it comes to things like lanes, solos, and disco flip.<br><br>TLDR: They both have their strong points, so I get the best of both worlds.</div>
 				</div>
 		  	</div>
 			<div class="accordion-item">
 				<h2 class="accordion-header">
-					<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#qa5" aria-expanded="false" aria-controls="qa5">Have another question?</button>
+					<button class="accordion-button collapse show" type="button" data-bs-toggle="collapse" data-bs-target="#qa5" aria-expanded="false" aria-controls="qa5">Have another question?</button>
 				</h2>
-				<div id="qa5" class="accordion-collapse collapse">
-					<div class="accordion-body">Send me a message on discord @itscerulean</div>
+				<div id="qa5" class="accordion-collapse">
+					<div class="accordion-body">Add me on discord <a href="//discord.com/users/97774516968648704">@itscerulean</a><br><br>Don't have discord? Email me <a href="mailto:commission@ceruleanight.com">commissions@ceruleanight.com</a></div>
 				</div>
 			</div>
 		</div>
